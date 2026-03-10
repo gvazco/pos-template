@@ -1,10 +1,10 @@
 # ChatCenter Deployment
 
-This project contains a pos-CMS and API built with PHP, deployed using Docker Compose on Dokploy.
+This project contains a POS-CMS and API built with PHP, deployed using Docker Compose on Dokploy.
 
 ## Services
 
-- **pos-CMS**: Web interface at pos-cms.core-hub-plex.cloud
+- **POS-CMS**: Web interface at pos-cms.core-hub-plex.cloud
 - **API**: REST API at api-pos-cms.core-hub-plex.cloud
 - **MySQL**: Database service
 
