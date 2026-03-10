@@ -13,7 +13,7 @@ class CurlController
 		$curl = curl_init();
 
 		curl_setopt_array($curl, array(
-			CURLOPT_URL => 'http://api-pos-cms.core-hub-plex.cloud/' . $url,
+			CURLOPT_URL => 'http://api/' . $url,
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_ENCODING => '',
 			CURLOPT_MAXREDIRS => 10,
