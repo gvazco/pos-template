@@ -55,7 +55,7 @@ class Connection
 		try {
 
 			$link = new PDO(
-				"mysql:host=" . (getenv('DB_HOST') ?: "db") . ";dbname=" . Connection::infoDatabase()["database"],
+				"mysql:host=" . (getenv('DB_HOST') ?: "dbp") . ";dbname=" . Connection::infoDatabase()["database"],
 				Connection::infoDatabase()["user"],
 				Connection::infoDatabase()["pass"]
 			);

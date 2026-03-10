@@ -19,7 +19,7 @@ This project contains a POS-CMS and API built with PHP, deployed using Docker Co
 
 Configure database connection in `.env`:
 
-- DB_HOST=db
+- DB_HOST=dbp
 - DB_NAME=pos
 - DB_USER=gbvazco
 - DB_PASS=EF300595

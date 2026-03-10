@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  db:
+  dbp:
     image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
@@ -20,7 +20,7 @@ services:
     env_file:
       - .env
     depends_on:
-      - db
+      - dbp
     networks:
       - internal
 
@@ -31,7 +31,7 @@ services:
     env_file:
       - .env
     depends_on:
-      - db
+      - dbp
     networks:
       - internal
 

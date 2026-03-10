@@ -29,7 +29,7 @@ class InstallController
 		try {
 
 			$link = new PDO(
-				"mysql:host=" . (getenv('DB_HOST') ?: "db") . ";dbname=" . InstallController::infoDatabase()["database"],
+				"mysql:host=" . (getenv('DB_HOST') ?: "dbp") . ";dbname=" . InstallController::infoDatabase()["database"],
 				InstallController::infoDatabase()["user"],
 				InstallController::infoDatabase()["pass"]
 			);
