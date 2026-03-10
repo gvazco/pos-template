@@ -6,8 +6,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: pos
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      MYSQL_USER: gbvazco
+      MYSQL_PASSWORD: EF300595
     volumes:
       - ./pos.sql:/docker-entrypoint-initdb.d/pos.sql
     networks:
