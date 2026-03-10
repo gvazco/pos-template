@@ -32,7 +32,7 @@ CREATE TABLE `admins` (
   `email_admin` text COLLATE utf8_spanish_ci DEFAULT NULL,
   `password_admin` text COLLATE utf8_spanish_ci DEFAULT NULL,
   `rol_admin` text COLLATE utf8_spanish_ci DEFAULT NULL,
-  `permissions_admin` json DEFAULT (json_object()),
+  `permissions_admin` text COLLATE utf8_spanish_ci DEFAULT NULL,
   `token_admin` text COLLATE utf8_spanish_ci DEFAULT NULL,
   `token_exp_admin` text COLLATE utf8_spanish_ci DEFAULT NULL,
   `status_admin` int(11) DEFAULT 1,
