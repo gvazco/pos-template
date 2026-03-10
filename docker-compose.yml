@@ -13,9 +13,9 @@ services:
     networks:
       - internal
 
-  api:
+  apipos:
     build:
-      context: ./api
+      context: ./apipos
       dockerfile: Dockerfile
     env_file:
       - .env
@@ -24,9 +24,9 @@ services:
     networks:
       - internal
 
-  cms:
+  cmspos:
     build:
-      context: ./cms
+      context: ./cmspos
       dockerfile: Dockerfile
     env_file:
       - .env

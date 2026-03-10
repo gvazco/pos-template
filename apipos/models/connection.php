@@ -14,8 +14,8 @@ class Connection
 
 		$infoDB = array(
 			"database" => getenv('DB_NAME') ?: "pos",
-			"user" => getenv('DB_USER') ?: "user",
-			"pass" => getenv('DB_PASS') ?: "password"
+			"user" => getenv('DB_USER') ?: "gbvazco",
+			"pass" => getenv('DB_PASS') ?: "EF300595"
 
 		);
 
