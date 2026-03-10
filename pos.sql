@@ -54,7 +54,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id_admin`, `email_admin`, `password_admin`, `rol_admin`, `permissions_admin`, `token_admin`, `token_exp_admin`, `status_admin`, `title_admin`, `symbol_admin`, `font_admin`, `color_admin`, `back_admin`, `scode_admin`, `name_admin`, `id_office_admin`, `chatgpt_admin`, `date_created_admin`, `date_updated_admin`) VALUES
-(1, 'superadmin@pos.com', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'superadmin', '{\"todo\":\"on\"}', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MzU5MTE0NjQsImV4cCI6MTczNTk5Nzg2NCwiZGF0YSI6eyJpZCI6IjEiLCJlbWFpbCI6InN1cGVyYWRtaW5AcG9zLmNvbSJ9fQ.NwMUJPet-spnwlE2SDStQLnOH-kZ04OSkiJgADUXyio', '1735997864', 1, 'POS SYSTEM', '<i class=\"bi bi-cart-check-fill\"></i>', '<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link href=\"https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap\" rel=\"stylesheet\">', '#611be4', 'http://cms.pos.com/views/assets/files/6760a08e6d34e6.png', 'w958zu', 'El Programador', 0, NULL, '2024-12-16', '2025-01-03 13:37:44'),
+(1, 'superadmin@pos.com', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'superadmin', '{\"todo\":\"on\"}', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MzU5MTE0NjQsImV4cCI6MTczNTk5Nzg2NCwiZGF0YSI6eyJpZCI6IjEiLCJlbWFpbCI6InN1cGVyYWRtaW5AcG9zLmNvbSJ9fQ.NwMUJPet-spnwlE2SDStQLnOH-kZ04OSkiJgADUXyio', '1735997864', 1, 'POS SYSTEM', '<i class=\"bi bi-cart-check-fill\"></i>', '<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><link href=\"https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap\" rel=\"stylesheet\">', '#611be4', 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6760a08e6d34e6.png', 'w958zu', 'El Programador', 0, NULL, '2024-12-16', '2025-01-03 13:37:44'),
 (2, 'admin@pos.com', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'admin', '{\"todo\":\"on\"}', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MzU5MTQxMTIsImV4cCI6MTczNjAwMDUxMiwiZGF0YSI6eyJpZCI6IjIiLCJlbWFpbCI6ImFkbWluQHBvcy5jb20ifX0.i0EH4Q71VSEUwvSi-pvrppQ5sQZ9F82syHThvycV6i8', '1736000512', 1, '', '', '', '', '', '', 'Sara Perez', 0, NULL, '2024-12-19', '2025-01-03 14:21:52'),
 (3, 'supervisor@pos.com', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'editor', '{\"pos\":\"on\",\"clientes\":\"on\",\"productos\":\"on\",\"compras\":\"on\"}', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MzQ2Mzg5OTIsImV4cCI6MTczNDcyNTM5MiwiZGF0YSI6eyJpZCI6IjMiLCJlbWFpbCI6InN1cGVydmlzb3JAcG9zLmNvbSJ9fQ.As7FXVdD2qpivzfahbXWcU14TsB2J9k1KYFbkFQvxCk', '1734725392', 1, '', '', '', '', '', '', 'Jorge Riquelme', 0, NULL, '2024-12-19', '2024-12-19 20:57:49'),
 (4, 'admin@pueblolindo.com', '$2a$07$azybxcags23425sdg23sdeanQZqjaf6Birm2NvcYTNtJw24CsO5uq', 'admin', '%7B%22todo%22%3A%22on%22%7D', 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MzQ2NDAxNjcsImV4cCI6MTczNDcyNjU2NywiZGF0YSI6eyJpZCI6IjQiLCJlbWFpbCI6ImFkbWluQHB1ZWJsb2xpbmRvLmNvbSJ9fQ.3FWKr8N8HDe7j5zLcbLJx6mTu3BGB88yXhDHvX7e8dE', '1734726567', 1, '', '', '', '', '', '', 'Jaime+Suarez', 1, NULL, '2024-12-19', '2024-12-19 20:29:27'),
@@ -145,11 +145,11 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id_category`, `title_category`, `img_category`, `order_category`, `status_category`, `date_created_category`, `date_updated_category`) VALUES
-(1, 'Headphones', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F67632dad8945845.png', 0, 1, '2024-12-18', '2024-12-18 20:17:13'),
-(2, 'Shoes', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F67632df45101e56.png', 0, 1, '2024-12-18', '2024-12-18 20:18:02'),
-(3, 'Mobiles', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F67632e0cbf0a320.png', 0, 1, '2024-12-18', '2024-12-18 20:18:29'),
-(4, 'Watches', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F67632e2558a3145.png', 0, 1, '2024-12-18', '2024-12-18 20:18:50'),
-(5, 'Laptops', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F67632e3962b825.png', 0, 1, '2024-12-18', '2024-12-18 20:19:09');
+(1, 'Headphones', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F67632dad8945845.png', 0, 1, '2024-12-18', '2024-12-18 20:17:13'),
+(2, 'Shoes', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F67632df45101e56.png', 0, 1, '2024-12-18', '2024-12-18 20:18:02'),
+(3, 'Mobiles', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F67632e0cbf0a320.png', 0, 1, '2024-12-18', '2024-12-18 20:18:29'),
+(4, 'Watches', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F67632e2558a3145.png', 0, 1, '2024-12-18', '2024-12-18 20:18:50'),
+(5, 'Laptops', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F67632e3962b825.png', 0, 1, '2024-12-18', '2024-12-18 20:19:09');
 
 -- --------------------------------------------------------
 
@@ -323,27 +323,27 @@ CREATE TABLE `files` (
 --
 
 INSERT INTO `files` (`id_file`, `id_folder_file`, `name_file`, `extension_file`, `type_file`, `size_file`, `link_file`, `thumbnail_vimeo_file`, `id_mailchimp_file`, `date_created_file`, `date_updated_file`) VALUES
-(1, 1, '674dfdf7195d735', 'png', 'image/png', 918215, 'http://cms.pos.com/views/assets/files/6760a08e6d34e6.png', NULL, NULL, '2024-12-16', '2024-12-16 21:50:06'),
-(2, 1, '674e11c5ce4055', 'png', 'image/png', 2945, 'http://cms.pos.com/views/assets/files/67632dad8945845.png', NULL, NULL, '2024-12-18', '2024-12-18 20:16:45'),
-(3, 1, '674e120172bb75', 'png', 'image/png', 3709, 'http://cms.pos.com/views/assets/files/67632df45101e56.png', NULL, NULL, '2024-12-18', '2024-12-18 20:17:56'),
-(4, 1, '674e121bf13c531', 'png', 'image/png', 4095, 'http://cms.pos.com/views/assets/files/67632e0cbf0a320.png', NULL, NULL, '2024-12-18', '2024-12-18 20:18:20'),
-(5, 1, '674e127c5d2498', 'png', 'image/png', 2209, 'http://cms.pos.com/views/assets/files/67632e2558a3145.png', NULL, NULL, '2024-12-18', '2024-12-18 20:18:45'),
-(6, 1, '674e12a07b01a44', 'png', 'image/png', 4586, 'http://cms.pos.com/views/assets/files/67632e3962b825.png', NULL, NULL, '2024-12-18', '2024-12-18 20:19:05'),
-(7, 1, '674e153f3200655', 'png', 'image/png', 6759, 'http://cms.pos.com/views/assets/files/676333a5a17a913.png', NULL, NULL, '2024-12-18', '2024-12-18 20:42:13'),
-(8, 1, '674e165bedcfd39', 'png', 'image/png', 8880, 'http://cms.pos.com/views/assets/files/6763359f5e7e639.png', NULL, NULL, '2024-12-18', '2024-12-18 20:50:39'),
-(9, 1, '674e169291f1134', 'png', 'image/png', 12674, 'http://cms.pos.com/views/assets/files/676335bf88cd611.png', NULL, NULL, '2024-12-18', '2024-12-18 20:51:11'),
-(10, 1, '674e16e1b80a153', 'png', 'image/png', 10279, 'http://cms.pos.com/views/assets/files/676335e7b765751.png', NULL, NULL, '2024-12-18', '2024-12-18 20:51:51'),
-(11, 1, '674e17362b0eb18', 'png', 'image/png', 8830, 'http://cms.pos.com/views/assets/files/676336050329e21.png', NULL, NULL, '2024-12-18', '2024-12-18 20:52:21'),
-(12, 1, '674e17f3d32aa27', 'png', 'image/png', 8335, 'http://cms.pos.com/views/assets/files/6763362601cc654.png', NULL, NULL, '2024-12-18', '2024-12-18 20:52:54'),
-(13, 1, '674e1818b981f4', 'png', 'image/png', 10435, 'http://cms.pos.com/views/assets/files/6763364983cdc29.png', NULL, NULL, '2024-12-18', '2024-12-18 20:53:29'),
-(14, 1, '674e1c3aed10842', 'png', 'image/png', 7847, 'http://cms.pos.com/views/assets/files/6763368780d2c31.png', NULL, NULL, '2024-12-18', '2024-12-18 20:54:31'),
-(15, 1, '674e1c695cead29', 'png', 'image/png', 11802, 'http://cms.pos.com/views/assets/files/676336be037ba26.png', NULL, NULL, '2024-12-18', '2024-12-18 20:55:26'),
-(16, 1, '674e1c9596eb513', 'png', 'image/png', 14185, 'http://cms.pos.com/views/assets/files/676336d8ae17952.png', NULL, NULL, '2024-12-18', '2024-12-18 20:55:52'),
-(17, 1, '674e1e2a37cea58', 'png', 'image/png', 11585, 'http://cms.pos.com/views/assets/files/676336fb70b6d27.png', NULL, NULL, '2024-12-18', '2024-12-18 20:56:27'),
-(18, 1, '674e1e0aa0fb026', 'png', 'image/png', 10007, 'http://cms.pos.com/views/assets/files/6763372162e555.png', NULL, NULL, '2024-12-18', '2024-12-18 20:57:05'),
-(19, 1, '674e1d54eb75924', 'png', 'image/png', 10979, 'http://cms.pos.com/views/assets/files/6763375d7ae0e5.png', NULL, NULL, '2024-12-18', '2024-12-18 20:58:05'),
-(20, 1, '674e1d83c2b1011', 'png', 'image/png', 10505, 'http://cms.pos.com/views/assets/files/676337786b5b132.png', NULL, NULL, '2024-12-18', '2024-12-18 20:58:32'),
-(21, 1, '6751c1a6b299418', 'png', 'image/png', 1072, 'http://cms.pos.com/views/assets/files/67659e224786f6.png', NULL, NULL, '2024-12-20', '2024-12-20 16:41:06');
+(1, 1, '674dfdf7195d735', 'png', 'image/png', 918215, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6760a08e6d34e6.png', NULL, NULL, '2024-12-16', '2024-12-16 21:50:06'),
+(2, 1, '674e11c5ce4055', 'png', 'image/png', 2945, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/67632dad8945845.png', NULL, NULL, '2024-12-18', '2024-12-18 20:16:45'),
+(3, 1, '674e120172bb75', 'png', 'image/png', 3709, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/67632df45101e56.png', NULL, NULL, '2024-12-18', '2024-12-18 20:17:56'),
+(4, 1, '674e121bf13c531', 'png', 'image/png', 4095, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/67632e0cbf0a320.png', NULL, NULL, '2024-12-18', '2024-12-18 20:18:20'),
+(5, 1, '674e127c5d2498', 'png', 'image/png', 2209, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/67632e2558a3145.png', NULL, NULL, '2024-12-18', '2024-12-18 20:18:45'),
+(6, 1, '674e12a07b01a44', 'png', 'image/png', 4586, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/67632e3962b825.png', NULL, NULL, '2024-12-18', '2024-12-18 20:19:05'),
+(7, 1, '674e153f3200655', 'png', 'image/png', 6759, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676333a5a17a913.png', NULL, NULL, '2024-12-18', '2024-12-18 20:42:13'),
+(8, 1, '674e165bedcfd39', 'png', 'image/png', 8880, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6763359f5e7e639.png', NULL, NULL, '2024-12-18', '2024-12-18 20:50:39'),
+(9, 1, '674e169291f1134', 'png', 'image/png', 12674, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676335bf88cd611.png', NULL, NULL, '2024-12-18', '2024-12-18 20:51:11'),
+(10, 1, '674e16e1b80a153', 'png', 'image/png', 10279, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676335e7b765751.png', NULL, NULL, '2024-12-18', '2024-12-18 20:51:51'),
+(11, 1, '674e17362b0eb18', 'png', 'image/png', 8830, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676336050329e21.png', NULL, NULL, '2024-12-18', '2024-12-18 20:52:21'),
+(12, 1, '674e17f3d32aa27', 'png', 'image/png', 8335, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6763362601cc654.png', NULL, NULL, '2024-12-18', '2024-12-18 20:52:54'),
+(13, 1, '674e1818b981f4', 'png', 'image/png', 10435, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6763364983cdc29.png', NULL, NULL, '2024-12-18', '2024-12-18 20:53:29'),
+(14, 1, '674e1c3aed10842', 'png', 'image/png', 7847, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6763368780d2c31.png', NULL, NULL, '2024-12-18', '2024-12-18 20:54:31'),
+(15, 1, '674e1c695cead29', 'png', 'image/png', 11802, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676336be037ba26.png', NULL, NULL, '2024-12-18', '2024-12-18 20:55:26'),
+(16, 1, '674e1c9596eb513', 'png', 'image/png', 14185, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676336d8ae17952.png', NULL, NULL, '2024-12-18', '2024-12-18 20:55:52'),
+(17, 1, '674e1e2a37cea58', 'png', 'image/png', 11585, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676336fb70b6d27.png', NULL, NULL, '2024-12-18', '2024-12-18 20:56:27'),
+(18, 1, '674e1e0aa0fb026', 'png', 'image/png', 10007, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6763372162e555.png', NULL, NULL, '2024-12-18', '2024-12-18 20:57:05'),
+(19, 1, '674e1d54eb75924', 'png', 'image/png', 10979, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6763375d7ae0e5.png', NULL, NULL, '2024-12-18', '2024-12-18 20:58:05'),
+(20, 1, '674e1d83c2b1011', 'png', 'image/png', 10505, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/676337786b5b132.png', NULL, NULL, '2024-12-18', '2024-12-18 20:58:32'),
+(21, 1, '6751c1a6b299418', 'png', 'image/png', 1072, 'http://pos-cms.core-hub-plex.cloud/views/assets/files/67659e224786f6.png', NULL, NULL, '2024-12-20', '2024-12-20 16:41:06');
 
 -- --------------------------------------------------------
 
@@ -368,7 +368,7 @@ CREATE TABLE `folders` (
 --
 
 INSERT INTO `folders` (`id_folder`, `name_folder`, `size_folder`, `total_folder`, `max_upload_folder`, `url_folder`, `keys_folder`, `date_created_folder`, `date_updated_folder`) VALUES
-(1, 'Server', '200000000000', 1079933, '500000000', 'http://cms.pos.com', NULL, '2024-12-16', '2024-12-20 16:41:06');
+(1, 'Server', '200000000000', 1079933, '500000000', 'http://pos-cms.core-hub-plex.cloud', NULL, '2024-12-16', '2024-12-20 16:41:06');
 
 -- --------------------------------------------------------
 
@@ -550,48 +550,48 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id_product`, `title_product`, `img_product`, `id_category_product`, `sku_product`, `unit_product`, `tax_product`, `rte_product`, `stock_product`, `discount_product`, `status_product`, `id_office_product`, `date_created_product`, `date_updated_product`) VALUES
-(1, 'Airpod+2', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676333a5a17a913.png', 1, 'PT001', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:08'),
-(2, 'Swagme', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763359f5e7e639.png', 1, 'PT002', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:08'),
-(3, 'Red+Nike+Angelo', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676335bf88cd611.png', 2, 'PT003', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:08'),
-(4, 'Blue+White+OGR', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676335e7b765751.png', 2, 'PT004', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
-(5, 'Green+Nike+Fe', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336050329e21.png', 2, 'PT005', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
-(6, 'Iphone+11', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763362601cc654.png', 3, 'PT006', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
-(7, 'IPhone+14+64GB', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763364983cdc29.png', 3, 'PT007', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
-(8, 'Rolex+Tribute+V3', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763368780d2c31.png', 4, 'PT008', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
-(9, 'Timex+Black+SIlver', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336be037ba26.png', 4, 'PT009', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
-(10, 'Fossil+Pair+Of+3+in+1', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336d8ae17952.png', 4, 'PT010', 'unidad', 'IVA_19', 'NULL', 95, 0, 1, 1, '2024-12-18', '2025-01-03 15:06:42'),
-(11, 'MacBook+Pro', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336fb70b6d27.png', 5, 'PT011', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:10'),
-(12, 'IdeaPad+Slim+5+Gen+7', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763372162e555.png', 5, 'PT012', 'unidad', 'IVA_19', 'NULL', 94, 0, 1, 1, '2024-12-18', '2025-01-03 15:06:42'),
-(13, 'Tablet 1.02 inch', 'http://cms.pos.com/views/assets/files/6763375d7ae0e5.png', 5, 'PT013', 'unidad', 'IVA_19', 'NULL', 96, 0, 1, 1, '2024-12-18', '2025-01-03 15:06:43'),
-(14, 'Yoga+Book+9i', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676337786b5b132.png', 5, 'PT014', 'unidad', 'IVA_19', 'NULL', 98, 30, 1, 1, '2024-12-18', '2025-01-03 15:06:43'),
-(15, 'Airpod+2', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676333a5a17a913.png', 1, 'PT001', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
-(16, 'Swagme', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763359f5e7e639.png', 1, 'PT002', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
-(17, 'Red+Nike+Angelo', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676335bf88cd611.png', 2, 'PT003', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
-(18, 'Blue+White+OGR', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676335e7b765751.png', 2, 'PT004', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
-(19, 'Green+Nike+Fe', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336050329e21.png', 2, 'PT005', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
-(20, 'Iphone+11', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763362601cc654.png', 3, 'PT006', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
-(21, 'IPhone+14+64GB', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763364983cdc29.png', 3, 'PT007', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
-(22, 'Rolex+Tribute+V3', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763368780d2c31.png', 4, 'PT008', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
-(23, 'Timex+Black+SIlver', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336be037ba26.png', 4, 'PT009', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
-(24, 'Fossil+Pair+Of+3+in+1', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336d8ae17952.png', 4, 'PT010', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
-(25, 'MacBook+Pro', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336fb70b6d27.png', 5, 'PT011', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
-(26, 'IdeaPad+Slim+5+Gen+7', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763372162e555.png', 5, 'PT012', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:25'),
-(27, 'Tablet+1.02+inch', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763375d7ae0e5.png', 5, 'PT013', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:25'),
-(28, 'Yoga+Book+9i', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676337786b5b132.png', 5, 'PT014', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:25'),
-(29, 'Airpod+2', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676333a5a17a913.png', 1, 'PT001', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:04'),
-(30, 'Swagme', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763359f5e7e639.png', 1, 'PT002', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:04'),
-(31, 'Red+Nike+Angelo', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676335bf88cd611.png', 2, 'PT003', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:04'),
-(32, 'Blue+White+OGR', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676335e7b765751.png', 2, 'PT004', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
-(33, 'Green+Nike+Fe', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336050329e21.png', 2, 'PT005', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
-(34, 'Iphone+11', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763362601cc654.png', 3, 'PT006', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
-(35, 'IPhone+14+64GB', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763364983cdc29.png', 3, 'PT007', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
-(36, 'Rolex+Tribute+V3', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763368780d2c31.png', 4, 'PT008', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
-(37, 'Timex+Black+SIlver', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336be037ba26.png', 4, 'PT009', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
-(38, 'Fossil+Pair+Of+3+in+1', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336d8ae17952.png', 4, 'PT010', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
-(39, 'MacBook+Pro', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676336fb70b6d27.png', 5, 'PT011', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
-(40, 'IdeaPad+Slim+5+Gen+7', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763372162e555.png', 5, 'PT012', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
-(41, 'Tablet+1.02+inch', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F6763375d7ae0e5.png', 5, 'PT013', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
-(42, 'Yoga+Book+9i', 'http%3A%2F%2Fcms.pos.com%2Fviews%2Fassets%2Ffiles%2F676337786b5b132.png', 5, 'PT014', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06');
+(1, 'Airpod+2', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676333a5a17a913.png', 1, 'PT001', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:08'),
+(2, 'Swagme', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763359f5e7e639.png', 1, 'PT002', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:08'),
+(3, 'Red+Nike+Angelo', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676335bf88cd611.png', 2, 'PT003', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:08'),
+(4, 'Blue+White+OGR', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676335e7b765751.png', 2, 'PT004', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
+(5, 'Green+Nike+Fe', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336050329e21.png', 2, 'PT005', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
+(6, 'Iphone+11', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763362601cc654.png', 3, 'PT006', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
+(7, 'IPhone+14+64GB', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763364983cdc29.png', 3, 'PT007', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
+(8, 'Rolex+Tribute+V3', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763368780d2c31.png', 4, 'PT008', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
+(9, 'Timex+Black+SIlver', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336be037ba26.png', 4, 'PT009', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:09'),
+(10, 'Fossil+Pair+Of+3+in+1', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336d8ae17952.png', 4, 'PT010', 'unidad', 'IVA_19', 'NULL', 95, 0, 1, 1, '2024-12-18', '2025-01-03 15:06:42'),
+(11, 'MacBook+Pro', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336fb70b6d27.png', 5, 'PT011', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 1, '2024-12-18', '2024-12-30 19:42:10'),
+(12, 'IdeaPad+Slim+5+Gen+7', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763372162e555.png', 5, 'PT012', 'unidad', 'IVA_19', 'NULL', 94, 0, 1, 1, '2024-12-18', '2025-01-03 15:06:42'),
+(13, 'Tablet 1.02 inch', 'http://pos-cms.core-hub-plex.cloud/views/assets/files/6763375d7ae0e5.png', 5, 'PT013', 'unidad', 'IVA_19', 'NULL', 96, 0, 1, 1, '2024-12-18', '2025-01-03 15:06:43'),
+(14, 'Yoga+Book+9i', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676337786b5b132.png', 5, 'PT014', 'unidad', 'IVA_19', 'NULL', 98, 30, 1, 1, '2024-12-18', '2025-01-03 15:06:43'),
+(15, 'Airpod+2', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676333a5a17a913.png', 1, 'PT001', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
+(16, 'Swagme', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763359f5e7e639.png', 1, 'PT002', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
+(17, 'Red+Nike+Angelo', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676335bf88cd611.png', 2, 'PT003', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
+(18, 'Blue+White+OGR', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676335e7b765751.png', 2, 'PT004', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
+(19, 'Green+Nike+Fe', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336050329e21.png', 2, 'PT005', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:23'),
+(20, 'Iphone+11', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763362601cc654.png', 3, 'PT006', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
+(21, 'IPhone+14+64GB', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763364983cdc29.png', 3, 'PT007', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
+(22, 'Rolex+Tribute+V3', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763368780d2c31.png', 4, 'PT008', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
+(23, 'Timex+Black+SIlver', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336be037ba26.png', 4, 'PT009', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
+(24, 'Fossil+Pair+Of+3+in+1', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336d8ae17952.png', 4, 'PT010', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
+(25, 'MacBook+Pro', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336fb70b6d27.png', 5, 'PT011', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:24'),
+(26, 'IdeaPad+Slim+5+Gen+7', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763372162e555.png', 5, 'PT012', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:25'),
+(27, 'Tablet+1.02+inch', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763375d7ae0e5.png', 5, 'PT013', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:25'),
+(28, 'Yoga+Book+9i', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676337786b5b132.png', 5, 'PT014', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 2, '2024-12-18', '2025-01-03 14:45:25'),
+(29, 'Airpod+2', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676333a5a17a913.png', 1, 'PT001', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:04'),
+(30, 'Swagme', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763359f5e7e639.png', 1, 'PT002', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:04'),
+(31, 'Red+Nike+Angelo', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676335bf88cd611.png', 2, 'PT003', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:04'),
+(32, 'Blue+White+OGR', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676335e7b765751.png', 2, 'PT004', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
+(33, 'Green+Nike+Fe', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336050329e21.png', 2, 'PT005', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
+(34, 'Iphone+11', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763362601cc654.png', 3, 'PT006', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
+(35, 'IPhone+14+64GB', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763364983cdc29.png', 3, 'PT007', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
+(36, 'Rolex+Tribute+V3', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763368780d2c31.png', 4, 'PT008', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
+(37, 'Timex+Black+SIlver', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336be037ba26.png', 4, 'PT009', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:05'),
+(38, 'Fossil+Pair+Of+3+in+1', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336d8ae17952.png', 4, 'PT010', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
+(39, 'MacBook+Pro', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676336fb70b6d27.png', 5, 'PT011', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
+(40, 'IdeaPad+Slim+5+Gen+7', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763372162e555.png', 5, 'PT012', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
+(41, 'Tablet+1.02+inch', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F6763375d7ae0e5.png', 5, 'PT013', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06'),
+(42, 'Yoga+Book+9i', 'http%3A%2F%2Fpos-cms.core-hub-plex.cloud%2Fviews%2Fassets%2Ffiles%2F676337786b5b132.png', 5, 'PT014', 'unidad', 'IVA_19', 'NULL', 100, 0, 1, 3, '2024-12-18', '2025-01-03 14:44:06');
 
 -- --------------------------------------------------------
 
